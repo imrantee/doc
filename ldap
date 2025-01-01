@@ -3,5 +3,6 @@ OS: Rocky Linux 8
 dnf update -y
 hostnamectl set-hostname ldap.example.local
 # add an entry to /etc/hosts file
+
 vim /etc/hosts
-`192.168.10.10 ldap.example.local`
+192.168.10.10 ldap.example.local
